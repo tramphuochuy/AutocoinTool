@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D2CC3C9-8CAD-464F-B51A-7C1539669D9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoCoin</RootNamespace>
+    <AssemblyName>AutoCoin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>US-dollar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip">
+      <HintPath>.\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add Coin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Coin.Designer.cs">
+      <DependentUpon>Add Coin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APIMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APIMonitor.Designer.cs">
+      <DependentUpon>APIMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APIWatcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APIWatcher.Designer.cs">
+      <DependentUpon>APIWatcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APIWatcher_Item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="APIWatcher_Item.Designer.cs">
+      <DependentUpon>APIWatcher_Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cgminer.cs" />
+    <Compile Include="CoinChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoinChoose.Designer.cs">
+      <DependentUpon>CoinChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config.Designer.cs">
+      <DependentUpon>Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Coin.Designer.cs">
+      <DependentUpon>Coin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigEditor.Designer.cs">
+      <DependentUpon>ConfigEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APIEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APIEdit.Designer.cs">
+      <DependentUpon>APIEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configions.Designer.cs">
+      <DependentUpon>Configions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAPI.cs" />
+    <Compile Include="DBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DStatic.cs" />
+    <Compile Include="Guide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guide.Designer.cs">
+      <DependentUpon>Guide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinkEdit.Designer.cs">
+      <DependentUpon>LinkEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageFlow.designer.cs">
+      <DependentUpon>MessageFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorAutoCoin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitorAutoCoin.Designer.cs">
+      <DependentUpon>MonitorAutoCoin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MonitorLog.Designer.cs">
+      <DependentUpon>MonitorLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitorLogForm.Designer.cs">
+      <DependentUpon>MonitorLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MonitorPanel.Designer.cs">
+      <DependentUpon>MonitorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoCoinWarning.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NoCoinWarning.Designer.cs">
+      <DependentUpon>NoCoinWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WakeUpOnLan.cs" />
+    <EmbeddedResource Include="Add Coin.resx">
+      <DependentUpon>Add Coin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APIMonitor.resx">
+      <DependentUpon>APIMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APIWatcher.resx">
+      <DependentUpon>APIWatcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APIWatcher_Item.resx">
+      <DependentUpon>APIWatcher_Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoinChoose.resx">
+      <DependentUpon>CoinChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config.resx">
+      <DependentUpon>Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coin.resx">
+      <DependentUpon>Coin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigEditor.resx">
+      <DependentUpon>ConfigEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APIEdit.resx">
+      <DependentUpon>APIEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configions.resx">
+      <DependentUpon>Configions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guide.resx">
+      <DependentUpon>Guide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkEdit.resx">
+      <DependentUpon>LinkEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageFlow.resx">
+      <DependentUpon>MessageFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorAutoCoin.resx">
+      <DependentUpon>MonitorAutoCoin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorLog.resx">
+      <DependentUpon>MonitorLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorLogForm.resx">
+      <DependentUpon>MonitorLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorPanel.resx">
+      <DependentUpon>MonitorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoCoinWarning.resx">
+      <DependentUpon>NoCoinWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Guide.jpg" />
+    <Content Include="Monitor.ico" />
+    <None Include="Resources\check.png" />
+    <None Include="Resources\List.png" />
+    <None Include="Resources\Actions-reload-icon1.png" />
+    <None Include="Resources\Config.png" />
+    <None Include="Resources\Lock-Lock-icon.png" />
+    <None Include="Resources\coin-add-icon.png" />
+    <None Include="Resources\Administrator-icon.png" />
+    <None Include="Resources\Action-db-update-icon.png" />
+    <None Include="Resources\Apps-Notepad-icon.png" />
+    <None Include="Resources\Folder-icon.png" />
+    <None Include="Resources\Help01.jpg" />
+    <Content Include="US-dollar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
