@@ -641,7 +641,7 @@
             this.cmsConfigions.Name = "cmsConfigions";
             this.cmsConfigions.Size = new System.Drawing.Size(224, 22);
             this.cmsConfigions.Text = "Configions";
-            this.cmsConfigions.Click += new System.EventHandler(this.cmsConfigions_Click);
+         
             // 
             // aDeleteToolStripMenuItem
             // 

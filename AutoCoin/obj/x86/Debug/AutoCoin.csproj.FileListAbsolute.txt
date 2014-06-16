@@ -30,3 +30,34 @@ C:\Users\Admin\Desktop\HUY\AutoCoin 3.0 - Public\AutoCoin\bin\Debug\Interop.WMPL
 C:\Users\Admin\Desktop\HUY\AutoCoin 3.0 - Public\AutoCoin\obj\x86\Debug\AutoCoin.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\HUY\AutoCoin 3.0 - Public\AutoCoin\obj\x86\Debug\AutoCoin.exe
 C:\Users\Admin\Desktop\HUY\AutoCoin 3.0 - Public\AutoCoin\obj\x86\Debug\AutoCoin.pdb
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\bin\Debug\AutoCoin.exe.config
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.csproj.ResolveComReference.cache
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.exe
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.pdb
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.Add_Coin.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.APIMonitor.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.APIWatcher.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.APIWatcher_Item.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.CoinChoose.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.Config.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.Coin.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.ConfigEditor.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.APIEdit.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.Guide.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.LinkEdit.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.Main.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.MessageFlow.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.MonitorAutoCoin.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.MonitorLog.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.MonitorLogForm.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.MonitorPanel.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.NoCoinWarning.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.Properties.Resources.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.Register.resources
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\obj\x86\Debug\AutoCoin.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\bin\Debug\AutoCoin.exe
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\bin\Debug\AutoCoin.pdb
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\bin\Debug\Ionic.Zip.dll
+C:\Users\Admin\Desktop\HUY\AutocoinTool\AutoCoin\bin\Debug\Interop.WMPLib.dll

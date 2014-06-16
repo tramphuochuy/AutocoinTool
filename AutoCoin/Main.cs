@@ -3079,17 +3079,7 @@ namespace AutoCoin
             }
         }
 
-        private void cmsConfigions_Click(object sender, EventArgs e)
-        {
-            if (Usercode != "tramphuochuy2")
-            {
-                DBase.ShowMessage("Not Allow Feature!", 300);
-                return;
-            }
-            
-            Configions C = new Configions();
-            C.Show();
-        }
+      
 
         private void edtConfigSCRYPT_TextChanged(object sender, EventArgs e)
         {
