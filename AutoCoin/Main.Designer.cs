@@ -88,7 +88,6 @@
             this.cmsEnableAMInMonitorMode = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.cmsStartDetector = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsConfigions = new System.Windows.Forms.ToolStripMenuItem();
             this.aDeleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.cmsHelp = new System.Windows.Forms.ToolStripMenuItem();
@@ -203,7 +202,7 @@
             this.disable100ThreadConcurencyToolStripMenuItem,
             this.disableStarupRepairToolStripMenuItem});
             this.cmsLoadconfig.Name = "contextMenuStrip2";
-            this.cmsLoadconfig.Size = new System.Drawing.Size(251, 286);
+            this.cmsLoadconfig.Size = new System.Drawing.Size(251, 264);
             // 
             // saveToToolStripMenuItem
             // 
@@ -466,12 +465,11 @@
             this.cmsEnableAMInMonitorMode,
             this.toolStripSeparator8,
             this.cmsStartDetector,
-            this.cmsConfigions,
             this.aDeleteToolStripMenuItem,
             this.toolStripSeparator12,
             this.cmsHelp});
             this.cmsMainMenu.Name = "contextMenuStrip1";
-            this.cmsMainMenu.Size = new System.Drawing.Size(225, 502);
+            this.cmsMainMenu.Size = new System.Drawing.Size(225, 480);
             // 
             // addCoinsToolStripMenuItem
             // 
@@ -635,13 +633,6 @@
             this.cmsStartDetector.Size = new System.Drawing.Size(224, 22);
             this.cmsStartDetector.Text = "Start Detecter When Open";
             this.cmsStartDetector.Click += new System.EventHandler(this.startDetecterToolStripMenuItem_Click);
-            // 
-            // cmsConfigions
-            // 
-            this.cmsConfigions.Name = "cmsConfigions";
-            this.cmsConfigions.Size = new System.Drawing.Size(224, 22);
-            this.cmsConfigions.Text = "Configions";
-         
             // 
             // aDeleteToolStripMenuItem
             // 
@@ -1479,7 +1470,6 @@
         private System.Windows.Forms.TextBox edtConfigGROESTL;
         private System.Windows.Forms.Button btnLockConfig;
         private System.Windows.Forms.Button btnAddCoin;
-        private System.Windows.Forms.ToolStripMenuItem cmsConfigions;
         private System.Windows.Forms.TextBox edtConfigX13;
         private System.Windows.Forms.Label lbHintLoadConfig;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
